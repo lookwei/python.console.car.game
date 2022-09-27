@@ -32,8 +32,8 @@ def encode2rect(pic):
         rectcode.append([ord(c) for c in s])
     return rectcode
 
-#startcode=encode2rect(startup)
-#print(startcode)
+startcode=encode2rect(startup)
+print(startcode)
 
 car="    ____\n"\
 " __/  |_\_\n"\
@@ -57,8 +57,8 @@ dog2="        __\n"\
 "   /,    /`\n"\
 "   \\\"--\\"
 
-dogcode=encode2rect(dog2)
-print(dogcode)
+# dogcode=encode2rect(dog2)
+# print(dogcode)
 
 crashed='   ___              _              _   _ \n'\
 '  / __\\ __ __ _ ___| |__   ___  __| | / \\\n'\
@@ -66,6 +66,6 @@ crashed='   ___              _              _   _ \n'\
 '/ /__| | | (_| \\__ \\ | | |  __/ (_| /\\_/ \n'\
 '\\____/_|  \\__,_|___/_| |_|\\___|\\__,_\\/  \n'
 
-print(crashed)
-crashedcode=encode2rect(crashed)
-print(crashedcode)
+# print(crashed)
+# crashedcode=encode2rect(crashed)
+# print(crashedcode)
